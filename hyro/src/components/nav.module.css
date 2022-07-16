@@ -1,0 +1,32 @@
+.navbar{
+    width: 90vw;
+    margin: 0px auto;
+    background-color: whitesmoke;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.6px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 1.5rem;
+}
+.links{
+    display: flex;
+    justify-content: right;
+
+}
+.links div{
+    cursor: pointer;
+    border-left: 1.6px solid black;
+    padding: 1rem 2.5rem;
+
+
+}
+.links div:last-child{
+    border-bottom-right-radius: 10px;
+}
+.links div:hover{
+    background-color: #D6FE51;
+}
