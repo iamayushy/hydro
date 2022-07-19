@@ -1,5 +1,7 @@
+import { Contact } from './Contact'
 import hero from './hero.module.css'
 import { Nabvar } from './Navbar'
+import { Services } from './Services'
 const Hero = () => {
     return(
         <div className={hero.home}>
@@ -14,6 +16,11 @@ const Hero = () => {
         <img className={hero.bgimage} src="https://img.freepik.com/free-photo/hydroponics-system-planting-vegetables-herbs-without-using-soil-health_1150-8153.jpg?w=2000"  alt="plant image" />
 
         </div>
+        <br />
+        <Services/>
+        <br />
+        <br />
+        <Contact/>
         </div>
     )
 }
